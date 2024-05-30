@@ -1,4 +1,3 @@
-style.css
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -31,12 +30,26 @@ section {
     border-radius: 5px;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #35424a;
-    color: #ffffff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+h3 {
+    border-bottom: 2px solid #e8491d;
+    padding-bottom: 10px;
+}
+
+.consultation {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+strong {
+    color: #333;
+}
+
+ol, ul {
+    margin-left: 20px;
+}
+
+ul li {
+    list-style-type: disc;
 }
