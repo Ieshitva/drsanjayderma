@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -35,6 +35,10 @@ header h3 {
     width: 80%;
     margin: auto;
     overflow: hidden;
+}
+
+main {
+    padding: 20px 0;
 }
 
 section {
