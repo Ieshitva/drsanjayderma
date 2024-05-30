@@ -84,3 +84,28 @@ ul li {
 .consultation-details {
     margin-bottom: 20px;
 }
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d73814;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
