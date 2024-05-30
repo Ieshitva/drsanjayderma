@@ -62,6 +62,13 @@ h3 {
     color: #35424a;
 }
 
+.qr-code img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
 strong {
     color: #333;
 }
