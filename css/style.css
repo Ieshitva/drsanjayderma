@@ -9,8 +9,7 @@ body {
 }
 
 header {
-    background: url('images/hero-image.jpg') no-repeat center center/cover, rgba(53, 66, 74, 0.8); /* Added darker overlay */
-    background-blend-mode: overlay;
+    background: linear-gradient(rgba(53, 66, 74, 0.8), rgba(53, 66, 74, 0.8)), url('images/hero-image.jpg') no-repeat center center/cover;
     color: #ffffff;
     padding: 80px 0;
     text-align: center;
