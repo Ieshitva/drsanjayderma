@@ -5,11 +5,12 @@ body {
     padding: 0;
     background: #f4f4f4;
     color: #333;
-    font-size: 18px;
+    font-size: 16px; /* Reduced font size */
 }
 
 header {
-    background: url('images/hero-image.jpg') no-repeat center center/cover;
+    background: url('images/hero-image.jpg') no-repeat center center/cover, rgba(53, 66, 74, 0.8); /* Added darker overlay */
+    background-blend-mode: overlay;
     color: #ffffff;
     padding: 80px 0;
     text-align: center;
@@ -18,19 +19,19 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: 700;
 }
 
 header h2 {
     margin: 0;
-    font-size: 2em;
+    font-size: 1.8em;
     color: #e8491d;
 }
 
 header h3 {
     margin: 20px 0 0;
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 .container {
@@ -54,7 +55,7 @@ section {
 h3 {
     border-bottom: 2px solid #e8491d;
     padding-bottom: 15px;
-    font-size: 2em;
+    font-size: 1.8em; /* Reduced font size */
 }
 
 .consultation {
@@ -67,7 +68,7 @@ h3 {
 .consultation-details h4 {
     margin-top: 0;
     color: #35424a;
-    font-size: 1.5em;
+    font-size: 1.3em; /* Reduced font size */
 }
 
 .qr-code img {
@@ -83,7 +84,7 @@ strong {
 
 ol, ul {
     margin-left: 30px;
-    font-size: 1.1em;
+    font-size: 1em; /* Reduced font size */
 }
 
 ul li {
@@ -98,7 +99,7 @@ ul li {
     display: inline-block;
     padding: 12px 25px;
     margin: 10px 0;
-    font-size: 18px;
+    font-size: 16px; /* Reduced font size */
     color: #ffffff;
     background-color: #e8491d;
     text-decoration: none;
@@ -118,5 +119,5 @@ footer {
     text-align: center;
     padding: 15px 0;
     margin-top: 30px;
-    font-size: 1.1em;
+    font-size: 1em; /* Reduced font size */
 }
