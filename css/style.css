@@ -5,7 +5,7 @@ body {
     padding: 0;
     background: #f4f4f4;
     color: #333;
-    font-size: 16px; /* Reduced font size */
+    font-size: 16px;
 }
 
 header {
@@ -54,7 +54,7 @@ section {
 h3 {
     border-bottom: 2px solid #e8491d;
     padding-bottom: 15px;
-    font-size: 1.8em; /* Reduced font size */
+    font-size: 1.8em;
 }
 
 .consultation {
@@ -67,7 +67,7 @@ h3 {
 .consultation-details h4 {
     margin-top: 0;
     color: #35424a;
-    font-size: 1.3em; /* Reduced font size */
+    font-size: 1.3em;
 }
 
 .qr-code img {
@@ -83,7 +83,7 @@ strong {
 
 ol, ul {
     margin-left: 30px;
-    font-size: 1em; /* Reduced font size */
+    font-size: 1em;
 }
 
 ul li {
@@ -98,7 +98,7 @@ ul li {
     display: inline-block;
     padding: 12px 25px;
     margin: 10px 0;
-    font-size: 16px; /* Reduced font size */
+    font-size: 16px;
     color: #ffffff;
     background-color: #e8491d;
     text-decoration: none;
@@ -118,5 +118,5 @@ footer {
     text-align: center;
     padding: 15px 0;
     margin-top: 30px;
-    font-size: 1em; /* Reduced font size */
+    font-size: 1em;
 }
